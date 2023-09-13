@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 10px 50px;
+}
+#logo{
+    width: 100px;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+.nav-link{
+    color: white;
+    text-decoration:none ;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+#events{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.event-card{
+    text-align: center;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+
+}
+.details-btn{
+    background-color: black;
+    text-decoration:none ;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#details{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.details-card{
+    text-align: center;
+    background-color:cornsilk;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 1);
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+}
+form{
+    background-color:bisque;
+}
+
+.apply-btn{
+    background-color:azure;
+    color: black;
+    text-decoration:none ;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+   
+}
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+}
